@@ -1,0 +1,37 @@
+.todo-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  background-color: pink;
+  border-radius: 3px;
+  box-shadow: 2px 2px 6px 0px #9c9c9c;
+  padding: 15px;
+  margin-bottom: 16px;
+}
+
+.todo-container input {
+  padding: 10px;
+}
+
+.todo-container p {
+  margin-left: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.todo-container .delete-todo {
+  margin-left: auto;
+  display: flex;
+  cursor: pointer;
+}
+
+.todo-container .delete-todo svg {
+  color: #cc0000;
+}
+
+.checked {
+  text-decoration: line-through;
+  font-style: italic;
+  color: #00000085;
+}
